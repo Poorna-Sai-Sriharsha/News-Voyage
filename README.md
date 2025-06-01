@@ -12,7 +12,7 @@
 Developed "News Voyage" a responsive single-page news aggregator using HTML5, CSS3, and JavaScript (ES6+). Integrated Axioms to fetch real-time news from GNews.io API, dynamically rendering content with category filtering and keyword search. Implemented responsive design, dark mode for accessibility, and performance optimization by limiting initial content display. Proficient in DOM manipulation, asynchronous programming, and utilizing libraries like Axioms and AOS. Version control with Git and collaborative development on GitHub.
 
 ## 📸 Screenshots
-![News Voyage UI](News Voyage.png)
+![News Voyage UI](News-Voyage.png)
 
 ## ✨ Features
 - ✅ Real-Time News Search: Search news articles by keywords with instant results.
