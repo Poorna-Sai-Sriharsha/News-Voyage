@@ -57,9 +57,3 @@ Developed "News Voyage" a responsive single-page news aggregator using HTML5, CS
 
 ## 🤝 Contributing
 - Contributions are welcome! Please fork the repository and submit a pull request with your changes. For major updates, open an issue first to discuss your ideas.
-
-
-Fork the repository.
-Create a new branch for your changes.
-Submit a pull request with your updates.
-For major changes, please open an issue first to discuss your ideas.
