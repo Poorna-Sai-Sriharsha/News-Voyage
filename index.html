@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Set character encoding and viewport for responsive design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Page title and favicon -->
+    <title>News Voyage</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/21/21601.png" type="image/x-icon">
+    <!-- External library imports -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <!-- Local stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header section with title and dark mode toggle -->
+    <div class="header">
+        <i class="fas fa-adjust toggle-mode-icon" onclick="toggleDarkMode()" title="Toggle Dark/Light Mode"></i>
+        <h1><i class="fas fa-newspaper"></i> News Voyage</h1>
+        <p>Explore the World of Information</p>
+    </div>
+
+    <!-- Search bar for querying news -->
+    <div class="search-bar">
+        <input type="text" id="search" placeholder="Search for topics, keywords......">
+        <button onclick="handleSearch()"><i class="fas fa-search"></i> Search</button>
+    </div>
+
+    <!-- Category buttons for filtering news -->
+    <div class="categories">
+        <button onclick="filterNews('general')" class="active">General</button>
+        <button onclick="filterNews('world')">World</button>
+        <button onclick="filterNews('nation')">Nation</button>
+        <button onclick="filterNews('sports')">Sports</button>
+        <button onclick="filterNews('technology')">Technology</button>
+        <button onclick="filterNews('entertainment')">Entertainment</button>
+        <button onclick="filterNews('science')">Science</button>
+        <button onclick="filterNews('health')">Health</button>
+    </div>
+
+    <!-- Container for displaying news articles -->
+    <div class="news-container" id="news-container">
+        <p class="loading"><i class="fas fa-spinner fa-spin"></i> Loading news...</p>
+    </div>
+
+    <!-- Footer with developer information and social links -->
+    <footer class="footer">
+        <div class="developer-info">
+            <span>© 2025 News Voyage | Developed by Poorna Sai Sriharsha</span>
+            <a href="https://www.linkedin.com/in/poorna-sai-sriharsha-perina/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Poorna-Sai-Sriharsha" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+        </div>
+    </footer>
+
+    <!-- External AOS library for animations -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <!-- Local JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
